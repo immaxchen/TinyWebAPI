@@ -12,7 +12,7 @@ namespace demoServer
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            RouteTable.Routes.MapHandlerRoute("home", "", "~/RequestHandler.ashx");
+            RouteTable.Routes.MapHandlerRoute("index", "", "~/RequestHandler.ashx");
         }
 
         protected void Session_Start(object sender, EventArgs e)
