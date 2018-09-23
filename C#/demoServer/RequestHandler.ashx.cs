@@ -6,9 +6,6 @@ using System.Web.Script.Serialization;
 
 namespace demoServer
 {
-    /// <summary>
-    /// RequestHandler 的摘要描述
-    /// </summary>
     public class RequestHandler : IHttpHandler
     {
         public void ProcessRequest(HttpContext context)
